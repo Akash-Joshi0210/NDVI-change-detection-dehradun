@@ -29,9 +29,14 @@ The workflow was implemented **twice** — once in **QGIS** (GUI-based) and once
 - **R** – `terra`, `sf` packages for raster processing and analysis
 
 ## 📊 Results
-NDVI change map showing vegetation gain (green) and loss (red) between 2015 and 2025:
+
+**QGIS Output** — NDVI change map:
 
 ![NDVI Change Map](R/plot%205.png)
+
+**R Output** — same analysis reproduced in R (code + plot):
+
+![R Analysis Screenshot](R/Screenshot%202026-08-23%20072411.png)
 
 ## 🔁 How to Run (R)
 1. Download Landsat 8/9 Level-2 Surface Reflectance bands (B4, B5) from [USGS EarthExplorer](https://earthexplorer.usgs.gov/)
