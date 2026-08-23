@@ -27,3 +27,15 @@ The workflow was implemented **twice** — once in **QGIS** (GUI-based) and once
 ## 🖥️ Tools Used
 - **QGIS** – Raster Calculator, digitizing, Clip by Mask, Zonal Statistics
 - **R** – `terra`, `sf` packages for raster processing and analysis
+
+## 📊 Results
+NDVI change map showing vegetation gain (green) and loss (red) between 2015 and 2025:
+
+![NDVI Change Map](R/plot%205.png)
+
+## 🔁 How to Run (R)
+1. Download Landsat 8/9 Level-2 Surface Reflectance bands (B4, B5) from [USGS EarthExplorer](https://earthexplorer.usgs.gov/)
+2. Place files in `data/2015/` and `data/2025/`
+3. Run `R/change_detection.R`
+
+## 📁 Repo Structure
